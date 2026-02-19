@@ -2,7 +2,7 @@
 
 **Privacy by architecture, not by promise.**
 
-Bonafide is an open specification for user-sovereign encrypted data vaults. Every piece of personal data is independently encrypted, keyed to the individual's biometric, and distributed across institutions that can see only what the user authorizes. There are no passwords. No recovery phrases. No master keys. No central authority that can be compelled to decrypt.
+Bonafide is an open specification for user-sovereign encrypted data vaults. Every piece of personal data is independently encrypted, secured by passwordless multi-factor authentication with hardware-bound biometrics, and distributed across institutions that can see only what the user authorizes. No passwords. No recovery phrases. No master keys. No central authority that can be compelled to decrypt.
 
 Institutions don't protect your data behind their walls — they host encrypted fragments they cannot read.
 
@@ -18,7 +18,7 @@ Bonafide inverts this model.
 
 **Quantized encryption** — Personal data is decomposed into atomic units called Quanta. Each quantum has its own encryption key, access policy, and tamper-proof audit trail. Compromise of one reveals nothing about any other.
 
-**Biometric-only identity** — The user's biometric, processed entirely on-device and never transmitted, is the sole key to the vault. No shared secrets exist anywhere in the system.
+**Passwordless multi-factor** — No passwords. No recovery phrases. No shared secrets. Bonafide uses hardware-bound biometric authentication that exceeds conventional MFA: the user's biometric (inherence) is processed entirely on-device within an attested secure element (possession), with optional passphrase for elevated contexts (knowledge). Three factors, zero friction — stronger than any password-based MFA on the market today.
 
 **Distributed vault hierarchy** — A user's vault is a tree of branches hosted across institutions. Each branch is cryptographically isolated. No institution sees the whole tree.
 
