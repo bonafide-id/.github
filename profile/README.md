@@ -22,7 +22,7 @@ Bonafide inverts this model.
 
 **Distributed vault hierarchy** — A user's vault is a tree of branches hosted across institutions. Each branch is cryptographically isolated. No institution sees the whole tree.
 
-**20 graduated security levels** — From public identifiers (Level 0) to biometric roots (Level 20). Institutions access only the levels their relationship warrants. The ceiling is cryptographic, not policy.
+**Graduated security levels** — Extensible, cryptographic security levels from public identifiers up through sovereign biometric roots. Institutions access only the levels their relationship warrants. The ceiling is cryptographic, not policy — enforced by key derivation depth and enclave tier requirements. Deployments define as many or as few levels as their use case demands.
 
 **Blind validation** — Independent validators verify operations without seeing data, using zero-knowledge proofs. No single entity — including Sly Technologies — can access a user's vault.
 
