@@ -18,7 +18,7 @@ Bonafide inverts this model.
 
 **Quantized encryption** — Personal data is decomposed into atomic units called Quanta. Each quantum has its own encryption key, access policy, and tamper-proof audit trail. Compromise of one reveals nothing about any other.
 
-**Passwordless multi-factor** — No passwords. No recovery phrases. No shared secrets. Bonafide uses hardware-bound biometric authentication that exceeds conventional MFA: the user's biometric (inherence) is processed entirely on-device within an attested secure element (possession), with optional passphrase for elevated contexts (knowledge). Three factors, zero friction — stronger than any password-based MFA on the market today.
+**Passwordless multi-factor** — No passwords. No recovery phrases. No shared secrets. Bonafide uses hardware-bound biometric authentication that exceeds conventional MFA: the user's biometric (inherence) is processed entirely on-device within an attested secure element (possession), combined with a user-chosen root secret (knowledge) that is stored in the hardware enclave after initial setup. The root secret can be derived from composable authentication gestures — a spoken word, a specific fingerprint, a facial expression, a keystroke rhythm, a tap pattern, or any combination the user chooses. Daily authentication is a single touch; the device applies the stored root secret transparently. The entire derivation is stateless — there is no stored "correct answer," no error on failure, no oracle for an attacker to probe.
 
 **Distributed vault hierarchy** — A user's vault is a tree of branches hosted across institutions. Each branch is cryptographically isolated. No institution sees the whole tree.
 
